@@ -1,0 +1,171 @@
+/* body{
+    margin: 0;
+}
+.container{
+    margin-left: 30px; 
+    display: block;
+    width: 400px;
+    height: 600px;
+}
+.container p,h3{
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+}
+.container h3{
+    border-left: 10px solid orangered;
+    
+    padding-left: 20px;
+}
+
+
+ */
+
+ /* position: relative,fixed, absolute */
+
+/* .container{
+    width: 100%;
+    background-color: white;
+}
+
+
+.container .box{
+    width: 100px;
+    height: 100px;
+}
+
+.container .red{
+    background-color: red;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.container .green{
+    background-color: green;
+}
+.container .blue{
+    background-color: blue;
+}
+
+.fixed{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+} */
+
+/* .container{
+    width: 300px;
+    height: 300px;
+    background-color: teal;
+    /* position: relative; 
+}*/
+/* .container .inner-container{
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    top: 50%;left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 3; 
+}
+.container .child{
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+    top: 50%;left:50%;
+    transform: translate(-50%,-50%);
+}
+.container .childhood{
+    width: 300px;
+    height: 300px;
+    background-color: violet;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    z-index: 1;
+}  */
+body{
+    margin:0;
+    background-color: white;
+}
+.container{
+    display: block;
+    width: 100%;
+    height: 550px;
+    position: relative;
+    background-color:  whitesmoke;
+}
+.container .cover{
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+    width: 900px;
+    z-index: 1;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    z-index:1;
+}
+.container a{
+    position: absolute;
+    top: 350px;
+    right: 15%;
+    transform: translate(-15%);
+    padding: 10px;
+    text-align: center;
+    height: 18px;
+    width: 150px;
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index:2;
+    display: flex;
+}
+.container .avatar{
+    width: 150px;
+    height:150px;
+    top: 270px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 80px;
+    position: absolute;
+    z-index:2;
+    border: white solid 5px;
+}
+
+.container p{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 390px;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+}
+.container .camera{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top:380px;
+    left:700px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 30px;
+    z-index:3;
+}
+.container .camera-cover{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
